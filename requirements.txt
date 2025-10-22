@@ -1,24 +1,19 @@
-# Subjugate Online - Production Dependencies
-
-# 3D Graphics and Game Engine
-panda3d>=1.10.13
-panda3d-gltf>=0.13
-panda3d-simplepbr>=0.11
-
-# Networking
-msgpack>=1.0.5
-cryptography>=41.0.0
+# Subjugate Online - Requirements
+# Production-ready 3D MMORPG
 
 # Database
-sqlalchemy>=2.0.0
-alembic>=1.12.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Client - 3D Rendering
+pygame==2.5.2
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.7
 
 # Utilities
-numpy>=1.24.0
-pillow>=10.0.0
-python-dotenv>=1.0.0
-colorama>=0.4.6
+python-dotenv==1.0.0
 
 # Development
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0

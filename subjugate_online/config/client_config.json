@@ -1,0 +1,41 @@
+{
+  "graphics": {
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "vsync": true,
+    "max_fps": 60,
+    "fov": 45,
+    "render_distance": 500
+  },
+  "audio": {
+    "master_volume": 1.0,
+    "music_volume": 0.7,
+    "sfx_volume": 0.8,
+    "enabled": true
+  },
+  "network": {
+    "login_server": {
+      "host": "localhost",
+      "port": 8888
+    },
+    "game_server": {
+      "host": "localhost",
+      "port": 8889
+    },
+    "timeout": 30,
+    "auto_reconnect": true
+  },
+  "controls": {
+    "mouse_sensitivity": 0.2,
+    "movement_speed": 5.0,
+    "camera_min_distance": 3.0,
+    "camera_max_distance": 50.0
+  },
+  "ui": {
+    "show_fps": true,
+    "show_ping": true,
+    "chat_history_size": 100,
+    "font_size": 24
+  }
+}

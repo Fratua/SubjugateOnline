@@ -1,0 +1,3 @@
+"""
+Subjugate Online - Client Package
+"""

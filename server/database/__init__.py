@@ -1,0 +1,3 @@
+"""
+Subjugate Online - Database Package
+"""

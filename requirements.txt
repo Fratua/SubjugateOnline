@@ -1,24 +1,40 @@
 # Subjugate Online - Production Dependencies
+# Complete dependency list for hyper-advanced 3D MMORPG
 
-# 3D Graphics and Game Engine
-panda3d>=1.10.13
-panda3d-gltf>=0.13
-panda3d-simplepbr>=0.11
+# ============================================================================
+# 3D GRAPHICS AND GAME ENGINE
+# ============================================================================
+panda3d>=1.10.13              # Core 3D engine
+panda3d-gltf>=0.13           # GLTF model support
+panda3d-simplepbr>=0.11      # PBR rendering
 
-# Networking
-msgpack>=1.0.5
-cryptography>=41.0.0
+# ============================================================================
+# NETWORKING
+# ============================================================================
+msgpack>=1.0.5               # Binary message serialization
+cryptography>=41.0.0         # Password hashing and encryption
 
-# Database
-sqlalchemy>=2.0.0
-alembic>=1.12.0
+# ============================================================================
+# DATABASE
+# ============================================================================
+sqlalchemy>=2.0.0            # ORM for database operations
+alembic>=1.12.0              # Database migrations
 
-# Utilities
-numpy>=1.24.0
-pillow>=10.0.0
-python-dotenv>=1.0.0
-colorama>=0.4.6
+# ============================================================================
+# MONITORING AND ADMIN
+# ============================================================================
+psutil>=5.9.0                # System monitoring (CPU, RAM, etc.)
 
-# Development
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
+# ============================================================================
+# UTILITIES
+# ============================================================================
+numpy>=1.24.0                # Mathematical operations
+pillow>=10.0.0               # Image processing
+python-dotenv>=1.0.0         # Environment variable management
+colorama>=0.4.6              # Colored terminal output
+
+# ============================================================================
+# DEVELOPMENT AND TESTING
+# ============================================================================
+pytest>=7.4.0                # Testing framework
+pytest-asyncio>=0.21.0       # Async testing support
